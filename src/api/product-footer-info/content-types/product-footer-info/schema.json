@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_footer_infos",
+  "info": {
+    "singularName": "product-footer-info",
+    "pluralName": "product-footer-infos",
+    "displayName": "Product Footer Info"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

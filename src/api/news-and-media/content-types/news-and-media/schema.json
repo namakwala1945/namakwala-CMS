@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "news_and_medias",
+  "info": {
+    "singularName": "news-and-media",
+    "pluralName": "news-and-medias",
+    "displayName": "News & Media"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Metadata": {
+      "type": "component",
+      "component": "seo.metadata",
+      "repeatable": false
+    },
+    "pagebanner": {
+      "type": "component",
+      "component": "banner.banner",
+      "repeatable": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "TypeOfMedia": {
+      "type": "component",
+      "component": "type-of-media.type-of-media",
+      "repeatable": true
+    }
+  }
+}

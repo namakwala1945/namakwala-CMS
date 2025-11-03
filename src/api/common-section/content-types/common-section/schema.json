@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "common_sections",
+  "info": {
+    "singularName": "common-section",
+    "pluralName": "common-sections",
+    "displayName": "Common Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "global_reach": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::global-reach.global-reach",
+      "inversedBy": "common_sections"
+    }
+  }
+}

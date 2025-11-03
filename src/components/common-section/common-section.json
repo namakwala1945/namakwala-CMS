@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_common_section_common_sections",
+  "info": {
+    "displayName": "Common Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

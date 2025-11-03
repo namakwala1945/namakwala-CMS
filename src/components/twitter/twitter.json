@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_twitter_twitters",
+  "info": {
+    "displayName": "twitter"
+  },
+  "options": {},
+  "attributes": {
+    "card": {
+      "type": "enumeration",
+      "enum": [
+        "summary",
+        "summary_large_image"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

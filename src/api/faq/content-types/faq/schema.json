@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "faq"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Metadata": {
+      "type": "component",
+      "component": "seo.metadata",
+      "repeatable": false
+    },
+    "pagebanner": {
+      "type": "component",
+      "component": "banner.banner",
+      "repeatable": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "faqs": {
+      "type": "component",
+      "component": "faq.faq",
+      "repeatable": true
+    }
+  }
+}

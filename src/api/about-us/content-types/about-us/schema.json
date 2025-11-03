@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "About us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Metadata": {
+      "type": "component",
+      "component": "seo.metadata",
+      "repeatable": false
+    },
+    "pagebanner": {
+      "type": "component",
+      "component": "banner.banner",
+      "repeatable": false
+    },
+    "OurJourney": {
+      "type": "component",
+      "component": "common-section.common-section",
+      "repeatable": false
+    },
+    "CommonSection": {
+      "type": "component",
+      "component": "common-section.common-section",
+      "repeatable": true
+    },
+    "KeyMilestonesOptions": {
+      "type": "component",
+      "component": "key-milestones.key-milestones",
+      "repeatable": false
+    }
+  }
+}

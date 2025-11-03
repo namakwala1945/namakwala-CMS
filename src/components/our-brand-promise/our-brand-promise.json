@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_our_brand_promise_our_brand_promises",
+  "info": {
+    "displayName": "Our Brand Promise"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

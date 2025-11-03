@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_brand_promises",
+  "info": {
+    "singularName": "our-brand-promise",
+    "pluralName": "our-brand-promises",
+    "displayName": "Our Brand Promise"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "BrandPromise": {
+      "type": "component",
+      "component": "our-brand-promise.our-brand-promise",
+      "repeatable": true
+    }
+  }
+}

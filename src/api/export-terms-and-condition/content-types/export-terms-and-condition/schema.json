@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "export_terms_and_conditions",
+  "info": {
+    "singularName": "export-terms-and-condition",
+    "pluralName": "export-terms-and-conditions",
+    "displayName": "Export Terms & Condition"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Metadata": {
+      "type": "component",
+      "component": "seo.metadata",
+      "repeatable": false
+    },
+    "pagebanner": {
+      "type": "component",
+      "component": "banner.banner",
+      "repeatable": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "CommonSection": {
+      "type": "component",
+      "component": "common-section.common-section",
+      "repeatable": true
+    }
+  }
+}

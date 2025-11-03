@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "default_descriptions",
+  "info": {
+    "singularName": "default-description",
+    "pluralName": "default-descriptions",
+    "displayName": "Default Description"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

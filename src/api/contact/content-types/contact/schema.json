@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Metadata": {
+      "type": "component",
+      "component": "seo.metadata",
+      "repeatable": false
+    },
+    "pagebanner": {
+      "type": "component",
+      "component": "banner.banner",
+      "repeatable": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "Address": {
+      "type": "component",
+      "component": "company-address.company-address",
+      "repeatable": true
+    },
+    "Number": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "WorkingTime": {
+      "type": "string"
+    }
+  }
+}

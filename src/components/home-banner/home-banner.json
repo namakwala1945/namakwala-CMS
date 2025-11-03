@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_home_banner_home_banners",
+  "info": {
+    "displayName": "Home Banner"
+  },
+  "options": {},
+  "attributes": {
+    "main_heading": {
+      "type": "string"
+    },
+    "sub_heading": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "button_label": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

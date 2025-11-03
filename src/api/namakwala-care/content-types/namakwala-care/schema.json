@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "namakwala_cares",
+  "info": {
+    "singularName": "namakwala-care",
+    "pluralName": "namakwala-cares",
+    "displayName": "Namakwala Care"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "namakwalaCareImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "namakwalaCareText": {
+      "type": "text"
+    }
+  }
+}

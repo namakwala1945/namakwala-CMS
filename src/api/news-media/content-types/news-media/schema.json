@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_medias",
+  "info": {
+    "singularName": "news-media",
+    "pluralName": "news-medias",
+    "displayName": "NewsMedia"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "Videos": {
+      "type": "component",
+      "component": "videos.videos",
+      "repeatable": true
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

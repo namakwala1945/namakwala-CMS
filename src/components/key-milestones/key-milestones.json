@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_key_milestones_key_milestones",
+  "info": {
+    "displayName": "Key Milestones"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "KeyMilestonesOptions": {
+      "type": "component",
+      "component": "km-option.km-option",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

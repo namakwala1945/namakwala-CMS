@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "life_at_namakwalas",
+  "info": {
+    "singularName": "life-at-namakwala",
+    "pluralName": "life-at-namakwalas",
+    "displayName": "Life at Namakwala"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

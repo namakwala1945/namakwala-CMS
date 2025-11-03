@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "scoll_zoom_sections",
+  "info": {
+    "singularName": "scoll-zoom-section",
+    "pluralName": "scoll-zoom-sections",
+    "displayName": "Scoll Zoom Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

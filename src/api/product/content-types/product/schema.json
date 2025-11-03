@@ -1,0 +1,97 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "position": {
+      "type": "biginteger",
+      "required": true
+    },
+    "Metadata": {
+      "type": "component",
+      "component": "seo.metadata",
+      "repeatable": false
+    },
+    "pagebanner": {
+      "type": "component",
+      "component": "banner.banner",
+      "repeatable": false
+    },
+    "productImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Title": {
+      "type": "string",
+      "default": "Enter Heading",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title",
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "salt",
+        "minerals"
+      ]
+    },
+    "introHeading": {
+      "type": "string",
+      "required": false
+    },
+    "introParagraph": {
+      "type": "blocks",
+      "required": false
+    },
+    "applicationsHeading": {
+      "type": "string"
+    },
+    "applicationsParagraph": {
+      "type": "blocks"
+    },
+    "customizationNote": {
+      "type": "string"
+    },
+    "footerHeading": {
+      "type": "string"
+    },
+    "footerParagraph": {
+      "type": "blocks"
+    },
+    "footerBackground": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "KeyFeatures": {
+      "type": "component",
+      "component": "key-feature.key-feature",
+      "repeatable": true
+    },
+    "technicalSpecifications": {
+      "type": "component",
+      "component": "technical-specification.technical-specification",
+      "repeatable": true
+    }
+  }
+}

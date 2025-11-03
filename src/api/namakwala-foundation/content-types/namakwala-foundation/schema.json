@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "namakwala_foundations",
+  "info": {
+    "singularName": "namakwala-foundation",
+    "pluralName": "namakwala-foundations",
+    "displayName": "Namakwala Foundation "
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "sliderImage": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

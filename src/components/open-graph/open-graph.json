@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_open_graph_open_graphs",
+  "info": {
+    "displayName": "OpenGraph"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "url": {
+      "type": "string"
+    },
+    "siteName": {
+      "type": "string"
+    },
+    "images": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

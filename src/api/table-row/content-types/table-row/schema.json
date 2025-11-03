@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "table_rows",
+  "info": {
+    "singularName": "table-row",
+    "pluralName": "table-rows",
+    "displayName": "Table Row"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TD_1": {
+      "type": "string"
+    },
+    "TD_2": {
+      "type": "string"
+    },
+    "product_table_datum": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::product-table-data.product-table-data",
+      "inversedBy": "table_rows"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_company_address_company_addresses",
+  "info": {
+    "displayName": "Company Address"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "blocks"
+    },
+    "Number": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

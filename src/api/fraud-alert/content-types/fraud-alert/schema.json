@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "fraud_alerts",
+  "info": {
+    "singularName": "fraud-alert",
+    "pluralName": "fraud-alerts",
+    "displayName": "Fraud Alert"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Metadata": {
+      "type": "component",
+      "component": "seo.metadata",
+      "repeatable": false
+    },
+    "pagebanner": {
+      "type": "component",
+      "component": "banner.banner",
+      "repeatable": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "CommonSection": {
+      "type": "component",
+      "component": "common-section.common-section",
+      "repeatable": true
+    }
+  }
+}

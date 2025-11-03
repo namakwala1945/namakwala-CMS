@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "home_banners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::home-banner.home-banner"
+    },
+    "product_tab": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product-tab.product-tab"
+    }
+  }
+}

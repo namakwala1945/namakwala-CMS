@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_table_datas",
+  "info": {
+    "singularName": "product-table-data",
+    "pluralName": "product-table-datas",
+    "displayName": "Product Table Data"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tableTitle": {
+      "type": "string",
+      "required": true
+    },
+    "TH_1": {
+      "type": "string"
+    },
+    "TH_2": {
+      "type": "string"
+    },
+    "table_rows": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::table-row.table-row",
+      "mappedBy": "product_table_datum"
+    }
+  }
+}

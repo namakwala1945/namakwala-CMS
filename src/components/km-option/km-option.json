@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_km_option_km_options",
+  "info": {
+    "displayName": "KM Option"
+  },
+  "options": {},
+  "attributes": {
+    "Year": {
+      "type": "string"
+    },
+    "Key": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

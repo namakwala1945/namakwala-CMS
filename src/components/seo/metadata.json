@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_seo_metadata",
+  "info": {
+    "displayName": "Metadata"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "keywords": {
+      "type": "string"
+    },
+    "openGraph": {
+      "type": "component",
+      "component": "open-graph.open-graph",
+      "repeatable": false
+    },
+    "twitter": {
+      "type": "component",
+      "component": "twitter.twitter",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

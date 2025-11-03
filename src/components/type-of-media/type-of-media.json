@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_type_of_media_type_of_medias",
+  "info": {
+    "displayName": "Type of Media"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Media": {
+      "type": "component",
+      "component": "media.media",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
