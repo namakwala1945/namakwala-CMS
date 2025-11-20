@@ -17,6 +17,9 @@
     },
     "description": {
       "type": "blocks"
+    },
+    "position": {
+      "type": "biginteger"
     }
   },
   "config": {}

@@ -452,6 +452,10 @@ export interface ApiAboutUsAboutUs extends Struct.SingleTypeSchema {
       'key-milestones.key-milestones',
       false
     >;
+    KnowAboutUs: Schema.Attribute.Component<
+      'common-section.common-section',
+      true
+    >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
