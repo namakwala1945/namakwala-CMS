@@ -32,6 +32,7 @@ export interface CommonSectionCommonSection extends Struct.ComponentSchema {
   attributes: {
     description: Schema.Attribute.Blocks;
     image: Schema.Attribute.Media<'images'>;
+    position: Schema.Attribute.BigInteger;
     title: Schema.Attribute.String;
   };
 }
